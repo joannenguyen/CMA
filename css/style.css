@@ -394,10 +394,26 @@ footer p{
 
 	.search_bar {
 		position: absolute;
-		top: 0%;
-		width: 20%;
-		right: 0%;
+		bottom: 30%;
+		width: 55%;
+		left: 52%;
 	}
+
+	.search_button{
+		width: 24%;
+		display: inline-block;
+	}
+
+	.search_box{
+		width: 50%;
+		display: inline-block;
+	}
+
+	.search_box input{
+		display: inline-block;
+		width: 95%;
+	}
+
 
 	.main_nav a{
 		border: none;
@@ -448,7 +464,7 @@ footer p{
 
 	.membership_grey article{
 		padding: 5px 10px 10px 5px;
-		width: 29.3%;
+		width: 29.6%;
 		float: left;
 		margin-left: 9px;
 	}
@@ -464,7 +480,43 @@ footer p{
 	.registration_button{
 		background-color: #db2c42;
 	}
+
+	.bottom_info, .page_content {
+		float: left;
+	}
+
+	.bottom_info{
+		width: 25%;
+		border-top: none;
+	}
+
+	.page_content {
+		width: 70%;
+	}
+
+	.bottom_info section{
+		margin-left: 30px;
+
+	}
+
+	.bottom_info {
+		border-left: 2px solid #cecece;
+		margin-left: 25px;
+	}
+
+
+	.membership {
+		width: 100%;
+	}
+
+	.membership_grey article{
+		padding: 5px 10px 10px 5px;
+		width: 28.6%;
+		float: left;
+		margin-left: 9px;
+	}
 }
+
 
 
 

@@ -53,111 +53,112 @@
                     <h1>Membership Registration</h1>
                     <p>Be part of the columbia museum of art</p>
                 </section> <!--end of .main_content -->
+                <div class="page_content">
+                    <section class="membership_benefits">
+                        <h2>All CMA Memberships Include the Following Benefits</h2>
+                        <ul>
+                            <li>Free unlimited admission for one year</li>
+                            <li>Discounts on concert tickets, classes, and lectures.</li>
+                            <li>Free admission to over <a href="#">80 Museums</a> across the Southeast.</li>
+                            <li>Exclusive invitations to special events, including Exhibition Members' Opening Parties.</li>
+                            <li>Member Appreciation Day - Several times a year, the museum offers exclusive members special savings in the gift shop, opportunities to bring a friend, and more.</li>
+                            <li>10% discount in the Museum Shop.</li>
+                        </ul>
+                    </section> <!--end of .membership_benefits -->
+                    <div class="form_grey_box">
+                        <h3>Tell Us About Yourself</h3>
 
-                <section class="membership_benefits">
-                    <h2>All CMA Memberships Include the Following Benefits</h2>
-                    <ul>
-                        <li>Free unlimited admission for one year</li>
-                        <li>Discounts on concert tickets, classes, and lectures.</li>
-                        <li>Free admission to over <a href="#">80 Museums</a> across the Southeast.</li>
-                        <li>Exclusive invitations to special events, including Exhibition Members' Opening Parties.</li>
-                        <li>Member Appreciation Day - Several times a year, the museum offers exclusive members special savings in the gift shop, opportunities to bring a friend, and more.</li>
-                        <li>10% discount in the Museum Shop.</li>
-                    </ul>
-                </section> <!--end of .membership_benefits -->
-                <div class="form_grey_box">
-                    <h3>Tell Us About Yourself</h3>
+                        <form class=" main_form" action="path/to/serverscript.php" method="post">
+                            <section class="first_half">
+                                  <div>
+                                    <label for="firstname">First Name:</label>
+                                    <input type="text" name="firstname" id="firstname" value="" />
+                                </div>
+                                <div>
+                                    <label for="lastname">Last Name:</label>
+                                    <input type="text" name="lastname" id="lastname" value="" />
+                                </div>
+                                <div>
+                                    <label for="address">Address:</label>
+                                    <input type="text" name="address" id="address" value="" />
+                                </div>
+                            </section> <!-- end of .first_half-->
+                            <section class="second_half">
+                                <div>
+                                    <label for="username">Choose a User Name:</label>
+                                    <input type="text" name="username" id="username" value="" />
+                                </div>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" id="email" value="" />
+                                </div>
+                                <div>
+                                    <label for="confirm">Confirm Email:</label>
+                                    <input type="text" name="confirm" id="confirm" value="" />
+                                </div>
+                            </section> <!-- end of .second_half-->
+                        <h3>Choose Your Membership Level</h3>
+                            <div class="clearfix membership_grey">
+                                <article class="individual">
+                                    <h3>Individual $50</h3>
+                                    <ul>
+                                        <li>Standard Membership Benefits.</li>
+                                        <li>Admission benefits for one adult.</li>
+                                    </ul>
+                                </article>
+                                <article class="family">
+                                    <h3>Family $75</h3>
+                                    <ul>
+                                        <li>Admission benefits for two adults and all children (18 and under).</li>
+                                        <li>Priority Registration and 20% discount on summer camp and art classes.</li>
+                                        <li>Free admission to all Family Fun Events.</li>
+                                    </ul>
+                                </article>
+                                <article class="patron">
+                                    <h3>Patron $250</h3>
+                                    <ul>
+                                        <li>All benefits of Family Membership.</li>
+                                        <li>Free admission to almost <a href="#">600 museums</a> in North America, including over <a href="#">80 museums</a> across the Southeast.</li>
+                                        <li>Free admission for two guests per visit.</li>
+                                        <li>Printed and Mailed Collections quarterly magazine and opening reception invitations.</li>
+                                    </ul>
+                                </article>
+                            </div> <!--end of .membership_grey -->
+                            <section class="membership_level">
+                                <h3>Membership Level</h3>
+                                <div> 
+                                     <input type="radio" name="membership" id="individual-choice-1" value="choice-1" />
+                                    <label for="individual">Individual Membership $50</label>
 
-                    <form class=" main_form" action="path/to/serverscript.php" method="post">
-                        <section class="first_half">
-                              <div>
-                                <label for="firstname">First Name:</label>
-                                <input type="text" name="firstname" id="firstname" value="" />
-                            </div>
-                            <div>
-                                <label for="lastname">Last Name:</label>
-                                <input type="text" name="lastname" id="lastname" value="" />
-                            </div>
-                            <div>
-                                <label for="address">Address:</label>
-                                <input type="text" name="address" id="address" value="" />
-                            </div>
-                        </section> <!-- end of .first_half-->
-                        <section class="second_half">
-                            <div>
-                                <label for="username">Choose a User Name:</label>
-                                <input type="text" name="username" id="username" value="" />
-                            </div>
-                            <div>
-                                <label for="email">Email:</label>
-                                <input type="text" name="email" id="email" value="" />
-                            </div>
-                            <div>
-                                <label for="confirm">Confirm Email:</label>
-                                <input type="text" name="confirm" id="confirm" value="" />
-                            </div>
-                        </section> <!-- end of .second_half-->
-                    <h3>Choose Your Membership Level</h3>
-                        <div class="clearfix membership_grey">
-                            <article class="individual">
-                                <h3>Individual $50</h3>
-                                <ul>
-                                    <li>Standard Membership Benefits.</li>
-                                    <li>Admission benefits for one adult.</li>
-                                </ul>
-                            </article>
-                            <article class="family">
-                                <h3>Family $75</h3>
-                                <ul>
-                                    <li>Admission benefits for two adults and all children (18 and under).</li>
-                                    <li>Priority Registration and 20% discount on summer camp and art classes.</li>
-                                    <li>Free admission to all Family Fun Events.</li>
-                                </ul>
-                            </article>
-                            <article class="patron">
-                                <h3>Patron $250</h3>
-                                <ul>
-                                    <li>All benefits of Family Membership.</li>
-                                    <li>Free admission to almost <a href="#">600 museums</a> in North America, including over <a href="#">80 museums</a> across the Southeast.</li>
-                                    <li>Free admission for two guests per visit.</li>
-                                    <li>Printed and Mailed Collections quarterly magazine and opening reception invitations.</li>
-                                </ul>
-                            </article>
-                        </div> <!--end of .membership_grey -->
-                        <section class="membership_level">
-                            <h3>Membership Level</h3>
-                            <div> 
-                                 <input type="radio" name="membership" id="individual-choice-1" value="choice-1" />
-                                <label for="individual">Individual Membership $50</label>
+                                    <input type="radio" name="membership" id="family-choice-2" value="choice-2" />
+                                    <label for="family">Family Membership $75</label>
+                                    
 
-                                <input type="radio" name="membership" id="family-choice-2" value="choice-2" />
-                                <label for="family">Family Membership $75</label>
-                                
+                                    <input type="radio" name="membership" id="patron-choice-3" value="choice-3" />
+                                    <label for="patron">Patron $250</label>
+                            
+                                </div>
+                            </section> <!-- end of .membership_level -->
+                            <section class="additional_options">
+                                <h3>Additional Options</h3>
+                                <div> 
+                                    <input type="checkbox" name="checkbox-1" id="checkbox-1" />
+                                    <label for"design-league">Columbia Design League $100</label>
+                                    
+                                    <input type="checkbox" name="checkbox-2" id="checkbox-2" />
+                                    <label for"contemporaries">Contemporaries $100</label><br>
+                                    
+                                    <input type="checkbox" name="checkbox-3" id="checkbox-3" />
+                                    <label for"AA-art">Friends of African American Art &amp; Culture $100</label>
+                                </div>
+                            </section> <!-- end of .additional_options -->
+                            <div class="registration_button">
+                            <a href="#">Complete Registration</a>
+                            </div> <!--end of .registration_button-->
+                        </form>
 
-                                <input type="radio" name="membership" id="patron-choice-3" value="choice-3" />
-                                <label for="patron">Patron $250</label>
-                        
-                            </div>
-                        </section> <!-- end of .membership_level -->
-                        <section class="additional_options">
-                            <h3>Additional Options</h3>
-                            <div> 
-                                <input type="checkbox" name="checkbox-1" id="checkbox-1" />
-                                <label for"design-league">Columbia Design League $100</label>
-                                
-                                <input type="checkbox" name="checkbox-2" id="checkbox-2" />
-                                <label for"contemporaries">Contemporaries $100</label><br>
-                                
-                                <input type="checkbox" name="checkbox-3" id="checkbox-3" />
-                                <label for"AA-art">Friends of African American Art &amp; Culture $100</label>
-                            </div>
-                        </section> <!-- end of .additional_options -->
-                        <div class="registration_button">
-                        <a href="#">Complete Registration</a>
-                        </div> <!--end of .registration_button-->
-                    </form>
-
-                </div> <!-- end of .form_grey_box -->
+                    </div> <!-- end of .form_grey_box -->
+                </div> <!-- end of .page_content -->
                 <div class="bottom_info">
                     <section class="tickets">
                         <h3>Tickets</h3>
